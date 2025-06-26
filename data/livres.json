@@ -1,0 +1,42 @@
+{
+  "1234": {
+    "ISBN": "1234",
+    "titre": "La Passion",
+    "auteur": "Souhail Moustaghit",
+    "annee": "2015",
+    "genre": "Roman",
+    "statut": "emprunté"
+  },
+  "La guerre": {
+    "ISBN": "La guerre",
+    "titre": "La guerre",
+    "auteur": "Souhail Moustghit",
+    "annee": "2016",
+    "genre": "Historique",
+    "statut": "disponible"
+  },
+  "789": {
+    "ISBN": "789",
+    "titre": "Trump",
+    "auteur": "Jasmin AIt",
+    "annee": 2016,
+    "genre": "Roman",
+    "statut": "emprunté"
+  },
+  "456": {
+    "ISBN": "456",
+    "titre": "La monche",
+    "auteur": "Safiya bela",
+    "annee": 2018,
+    "genre": "Informatique",
+    "statut": "disponible"
+  },
+  "321": {
+    "ISBN": "321",
+    "titre": "Le Monde",
+    "auteur": "Souhail Moustaghit",
+    "annee": 2020,
+    "genre": "Historique",
+    "statut": "emprunté"
+  }
+}
