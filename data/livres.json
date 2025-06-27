@@ -23,14 +23,6 @@
     "genre": "Roman",
     "statut": "emprunté"
   },
-  "456": {
-    "ISBN": "456",
-    "titre": "La monche",
-    "auteur": "Safiya bela",
-    "annee": 2018,
-    "genre": "Informatique",
-    "statut": "disponible"
-  },
   "321": {
     "ISBN": "321",
     "titre": "Le Monde",
@@ -38,5 +30,29 @@
     "annee": 2020,
     "genre": "Historique",
     "statut": "emprunté"
+  },
+  "5689": {
+    "ISBN": "5689",
+    "titre": "ensa",
+    "auteur": "Souhail Moustaghit",
+    "annee": 2019,
+    "genre": "Roman",
+    "statut": "disponible"
+  },
+  "6645": {
+    "ISBN": "6645",
+    "titre": "Ump",
+    "auteur": "Souhail MS",
+    "annee": 2014,
+    "genre": "Roman",
+    "statut": "disponible"
+  },
+  "7777": {
+    "ISBN": "7777",
+    "titre": "Les Piliers de la Terre",
+    "auteur": "Ken Follett",
+    "annee": 2019,
+    "genre": "historique",
+    "statut": "disponible"
   }
 }

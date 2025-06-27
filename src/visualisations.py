@@ -6,7 +6,7 @@ from bibliotheque import Livre
 class Visualisation:
     @staticmethod
     def pie_chart_genres(livres: Dict[str, 'Livre'], save_path: str = None):
-        """Diagramme circulaire des livres par genre"""
+        
         genres = {}
         for livre in livres.values():
             genres[livre.genre] = genres.get(livre.genre, 0) + 1
@@ -25,7 +25,7 @@ class Visualisation:
 
     @staticmethod
     def top_auteurs(livres: Dict[str, 'Livre'], save_path = None):
-        """Histogramme des 10 auteurs les plus populaires"""
+        
         auteurs = {}
         for livre in livres.values():
             auteurs[livre.auteur] = auteurs.get(livre.auteur, 0) + 1
@@ -46,7 +46,7 @@ class Visualisation:
 
     @staticmethod
     def activite_emprunts(historique: List[Dict], save_path: str = None):
-        """Courbe d'activité des emprunts sur 30 jours"""
+        
         dates = []
         for entry in historique:
             if entry['action'] == 'emprunt':
