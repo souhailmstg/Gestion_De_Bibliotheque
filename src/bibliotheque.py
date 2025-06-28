@@ -79,9 +79,9 @@ from visualisations import Visualisation
 
 class Bibliotheque:
     def __init__(self):
-        self.livres: Dict[str, Livre] = {}  # ISBN -> Livre
-        self.membres: Dict[str, Membre] = {}  # ID_membre -> Membre
-        self.historique: List[Dict] = []  # Historique des emprunts/retours
+        self.livres: Dict[str, Livre] = {}  
+        self.membres: Dict[str, Membre] = {}  
+        self.historique: List[Dict] = []  
     
     def ajouter_livre(self, livre: Livre):
         if livre.ISBN in self.livres:
@@ -219,7 +219,7 @@ class Bibliotheque:
         
         return stats
     
-    def sauvegarder_donnees(self, dossier: str = "data"):
+    def sauvegarder_donnees(self, dossier = "data"):
         """Sauvegarde les données dans des fichiers"""
         import os
         
@@ -246,7 +246,7 @@ class Bibliotheque:
         
         print(f"Données sauvegardées dans le dossier '{dossier}'")
     
-    def charger_donnees(self, dossier: str = "data"):
+    def charger_donnees(self, dossier= "data"):
         """Charge les données depuis des fichiers"""
         import os
         
